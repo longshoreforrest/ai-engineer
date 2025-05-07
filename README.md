@@ -20,8 +20,6 @@ ai-engineer-solution/
 │   └── docker-compose.yml        # Triton + adapter orchestration
 ├── app/                          # FastAPI service code
 ├── scripts/                      # Smoke‑test clients
-├── presentation/                 # End‑to‑end scenario outline
-├── api_test.ipynb                # Interactive notebook client
 └── README.md                     # (this file)
 ```
 
