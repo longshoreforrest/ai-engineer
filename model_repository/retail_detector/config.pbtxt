@@ -1,0 +1,20 @@
+name: "retail_detector"
+backend: "pytorch"
+max_batch_size: 1
+
+input [
+  { name: "INPUT__0" data_type: TYPE_FP32 dims: [ 3, 320, 320 ] }
+]
+
+output [
+  { name: "OUTPUT__0" data_type: TYPE_FP32 dims: [ -1, 6 ] }
+]
+
+instance_group [
+  { kind: KIND_CPU }    # or KIND_GPU if you have GPU support
+]
+
+parameters {
+  key: "model_filename"
+  value: { string_value: "model.pt" }
+}

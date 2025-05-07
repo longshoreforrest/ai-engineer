@@ -1,0 +1,5 @@
+requests
+torch
+torchvision
+tritonclient[http]==2.39.0
+opencv-python

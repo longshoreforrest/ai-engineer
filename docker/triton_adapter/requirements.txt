@@ -1,0 +1,4 @@
+# model_repository/retail_detector/1/requirements.txt
+torch==2.2.0
+torchvision==0.17.0
+pillow

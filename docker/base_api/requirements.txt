@@ -1,0 +1,8 @@
+# docker/base_api/requirements.txt
+torch==2.2.0
+torchvision==0.17.0
+numpy==1.26.4
+fastapi==0.110.2
+uvicorn[standard]==0.29.0
+pillow==10.3.0
+python-multipart==0.0.9
